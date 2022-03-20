@@ -1,0 +1,51 @@
+nav ul {list-style-type: none; font-size: 2em; font-weight: bold;}
+nav li {display: inline;}
+nav {position: fixed; bottom: 0;}
+nav a:link {color:  #ffff00; text-decoration: none;}
+nav a:visited {color: #4d79ff;}
+nav a:hover {color:  #ff33ff;}
+nav a:active {color:  #ff531a;}
+.headshot {width: 240px;height: 320px; float: left; margin-right: 20px;}
+* {box-sizing: border-box;}
+.wrapper::after {
+	content: : "";
+	clear: both;}
+.testing {width: 100%; background-color: white; border-collapse: collapse;}
+th, td {border: 1px solid black; padding: 15px;}
+td {text-align: center;}
+th:hover {background-color: red;}
+td:hover {background-color: blue}
+.wrapper {display: flex;
+	width: 100%; font-size: 2em; font-weight: bold;}
+article h2 {font-family: "Electrolize", "Arial",  sans-serif; font-weight: bold;}
+article ul {font-family: "Open Sans", "Tahoma", sans-serif;}
+.box {float: left; width: 33.33%; background-color: gray; 
+	border-style: solid; flex:1; padding: 10px;}
+.biography {clear: right; font-family: "Georgia", serif; font-weight: normal;}
+.wayfarer {width: 500px;height: 300px; float: left; }
+.youtube {width: 500px;height: 300px; float: right; background-color: white}
+figure{display: inline-block;}
+figcaption{font-size:20px; padding:8px; clear:both; color: white; text-align: center;}
+body {background-color: black}
+/* This does the styling for any h1 or p elements*/
+h1
+	{
+		color: white; text-align: center; background-color: black; position:relative; right: 10px;
+		font-size: 4em}
+p
+	{
+		color: white; background-color: black; text-align: left; font-size: 2em; font-weight: bold;
+	}
+/* End p and h1 segment*/
+.index{margin-top: 30px;} /*this is a margin for the top of the main page*/
+/* The following sections are the styling for the form on the index page.*/
+.suggest{color: white; background-color: blue; border-radius: 15px; box-shadow: 5px 5px black;
+transition: transform .2s;} /* Not sure why I started styling the button first, but that is what happened. */
+.suggest:hover{-ms-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1);} /* made a little
+pop out effect. */
+.reset{color: white; background-color: blue;}
+form{background-color: gray; font-size: 2em; border-radius: 25px; padding: 30px;} /* styling for full form */
+input{font-size: 1em; padding: 10px;} /* for all input boxes*/
+textarea{font-size: 1em; padding: 10px; height: 200px; width: 600px;} /*text area styling.*/
+select{font-size: 1em; padding: 10px;} /* select menu styling */
+/* Form styling ends.*/
